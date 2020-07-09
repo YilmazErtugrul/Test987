@@ -2,7 +2,7 @@
 
 namespace ConsoleApp2
 {
-    public class Program
+    public class MyClass
     {
         static void Main(string[] args)
         {

@@ -1,5 +1,5 @@
-using Microsoft.VisualStudio.TestPlatform.TestHost;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using ConsoleApp2;
 
 namespace UnitTestProject1
 {
@@ -9,7 +9,7 @@ namespace UnitTestProject1
         [TestMethod]
         public void TestMethod1()
         {
-            Assert.AreEqual("Hello World", Program.method1());
+            Assert.AreEqual("Hello World", MyClass.method1());
         }
     }
 }
